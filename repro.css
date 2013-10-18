@@ -136,7 +136,7 @@ hr
 	text-shadow: 0px 1px 0px rgba(0,0,0,.2);
 	font-size: 1.1em;
 	font-weight: 400;
-	color: #B5B5B5 !important;
+	color: #B5B5B5;
   padding: 10px 10px;
 }
 
@@ -394,7 +394,7 @@ ul.style3 .date a:hover
 	border-left: 1px solid #E0E0E0
 }
 
-#menu li:nth-child(5)
+#menu li:nth-child(4)
 {
   border-right: 1px solid #E0E0E0
 }
@@ -414,7 +414,7 @@ ul.style3 .date a:hover
 
 #menu a:hover
 {
-	color: #20A2E3;
+	color: #00CDCD;
 }
 
 #menu a:active
@@ -447,6 +447,8 @@ ul.style3 .date a:hover
 	overflow: hidden;
 	padding: 70px;
   color: #606060;
+  width: 80%;
+  margin: 0 auto;
 }
 
 #footer-content a
@@ -465,7 +467,7 @@ ul.style3 .date a:hover
 {
 	float: left;
 	width: 40%;
-  background-color:rgba(32,162,227,0.6);
+  background-color:rgba(0,205,205,0.6);
   margin-right: 20px;
   border-radius: 5px;
   padding: 20px 20px;
@@ -476,7 +478,7 @@ ul.style3 .date a:hover
 {
 	float: left;
 	width: 20%;
-  background-color:rgba(227,32,136,0.6);
+  background-color:rgba(255,00,255,0.4);
   padding: 20px 20px;
   margin-right: 20px;
   border-radius: 5px;
@@ -492,12 +494,12 @@ ul.style3 .date a:hover
 
 #footer-content #fbox2 ul li
 {
-  background-image: url(images/list-marker-grey.tif);
-  background-size: 15px;
+  background-image: url('images/list-marker-grey.png');
   background-repeat: no-repeat;
   background-position: 0px 5px; 
   padding-left: 30px; 
   padding-bottom: 30px;
+
 }
 
 #footer-content #fbox2 ul li a
@@ -535,9 +537,9 @@ ul.style3 .date a:hover
 
 #banner img
 {
-	padding: 1px 0px;
   width: 100%;
-  min-width: 1200 px;
+  height: auto;
+  min-width: 1200px;
 }
 
 /* Three Column Content */
@@ -583,3 +585,23 @@ ul.style3 .date a:hover
 	float: right;
 	width: 32%;
 }
+
+/* Uslugi content */
+
+#uslugi-content
+{
+  overflow: hidden;
+  border: 1px solid black;
+  width: 80%;
+  margin: 0 auto;
+	padding-top: 70px;
+  color: #606060;
+}
+
+#uslugi-content #col3 
+{
+  border: 1px solid black;
+}
+
+
+
