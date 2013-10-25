@@ -309,8 +309,8 @@ ul.style3 .date a:hover
 			padding-top: 0em !important!;
 			border-top: none;
 		}
-		
-		
+
+
 /** WRAPPER */
 
 #wrapper-bg
@@ -351,7 +351,7 @@ ul.style3 .date a:hover
   padding-left: 10%;
   padding-top: 5px;
   color: #878787;
-} 
+}
 
 #header
 {
@@ -496,15 +496,18 @@ ul.style3 .date a:hover
 {
   background-image: url('images/list-marker-grey.png');
   background-repeat: no-repeat;
-  background-position: 0px 5px; 
-  padding-left: 30px; 
-  padding-bottom: 30px;
+  background-position: 0px 5px;
+  background-size: 20px;
+  padding-left: 30px;
+  padding-bottom: 31px;
 
 }
 
 #footer-content #fbox2 ul li a
 {
   text-decoration: none;
+  /* padding-top: 10px; */
+  vertical-align: middle;
 }
 
 #footer-content #fbox3
@@ -588,20 +591,22 @@ ul.style3 .date a:hover
 
 /* Uslugi content */
 
-#uslugi-content
+#services-content
 {
-  overflow: hidden;
-  border: 1px solid black;
   width: 80%;
   margin: 0 auto;
 	padding-top: 70px;
   color: #606060;
 }
 
-#uslugi-content #col3 
+#services-content .item
 {
-  border: 1px solid black;
+  overflow: auto;
+  display: block;
+  padding-top: 30px;
 }
 
-
-
+#services-content .item h2
+{
+  padding-bottom: 20px
+}
